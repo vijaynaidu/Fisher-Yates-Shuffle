@@ -53,7 +53,7 @@ namespace RandomListApplication
 
         public RandomList(List<String> randList)
         {
-            this.randList = randList;
+            this.randList = randList.ToList();//Copying instead of reference.
         }
     }
 
